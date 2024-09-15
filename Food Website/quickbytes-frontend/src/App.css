@@ -1,0 +1,115 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  background-image: url('./assects/pizza.jpg');
+  background-repeat: repeat;
+  background-size: 100%;
+  background-position: center;
+  color: #fff;
+  position: relative;
+  height: 100vh;
+}
+/* Header Section */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(11, 3, 1, 0.56);
+}
+
+.logo h1 {
+  font-size: 35px;
+  color: #fff;
+  margin: 0;
+  font-family:"sloop script pro";
+}
+
+.logo span {
+  color: #d64b32;
+}
+
+.logo p {
+  font-size: 14px;
+  color: #fff;
+  margin: 0;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input[type="text"] {
+  padding: 8px;
+  border-radius: 20px;
+  border: none;
+  width: 350px;
+  margin-right: 8px;
+}
+
+.search-icon {
+  background-color: #d64b32;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.auth-buttons a{
+  margin-left: 10px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #d64b32;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main Section */
+.main-content {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 60vh;
+  text-align: center;
+}
+
+.intro {
+  background-color: rgba(57, 12, 12, 0.329);
+  padding: 20px;
+  border-radius: 100px;
+  max-width: 600px;
+}
+
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .header {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .main-content {
+      height: 50vh;
+  }
+
+  .menu-section {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .search-bar {
+      margin-top: 10px;
+  }
+}

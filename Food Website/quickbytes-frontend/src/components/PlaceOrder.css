@@ -1,0 +1,101 @@
+/* PlaceOrder.css */
+
+/* Main container for the PlaceOrder page */
+.place-order-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #00000072;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-repeat: no-repeat;
+    
+  }
+  
+  /* Header styling */
+  .place-order-container h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  /* Order item list */
+  .order-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .order-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Styling for product images */
+  .order-item img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  /* Product details */
+  .order-item div {
+    flex-grow: 1;
+    margin-left: 20px;
+  }
+  
+  .order-item h3 {
+    font-size: 1.2rem;
+    margin: 0;
+    color: #ffffff;
+  }
+  
+  .order-item p {
+    font-size: 1rem;
+    color: #ffffff;
+  }
+  
+  /* Total section */
+  .order-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-top: 2px solid #ddd;
+    margin-top: 20px;
+  }
+  
+  .order-total h3 {
+    font-size: 1.5rem;
+    color: #ffffff;
+  }
+  
+  /* Place Order button styling */
+  .place-order-button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .place-order-button:hover {
+    background-color: #218838;
+  }
+  
+  .place-order-button:active {
+    background-color: #1e7e34;
+  }
+  

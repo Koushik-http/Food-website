@@ -1,0 +1,58 @@
+/* Header Section */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.256);
+}
+
+.logo h1 {
+    font-size: 35px;
+    color: #fff;
+    margin: 0;
+    font-family:"sloop script pro";
+}
+
+.logo span {
+    color: #d64b32;
+}
+
+.logo p {
+    font-size: 14px;
+    color: #fff;
+    margin: 0;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    width: 350px;
+    margin-right: 8px;
+}
+
+.search-icon {
+    background-color: #d64b32;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.auth-buttons a{
+    margin-left: 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #d64b32;
+    color: #fff;
+    text-decoration: none;
+}

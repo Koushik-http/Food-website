@@ -1,0 +1,22 @@
+footer {
+    background-color: #00000094;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+footer h1 {
+    color: #ff6600;
+}
+
+.footer-icons i {
+    margin: 10px;
+    color: #ff6600;
+    cursor: pointer;
+}
+
+footer p {
+    margin-top: 20px;
+}

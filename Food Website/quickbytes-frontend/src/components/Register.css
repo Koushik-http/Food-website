@@ -1,0 +1,65 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    background-image: url('../assects/pizza.jpg'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+
+}
+
+.container {
+    background-color: rgb(7 6 6 / 57%);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(229, 226, 226, 0.1);
+    width: 300px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: calc(100% - 20px);
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #e65c00;
+}
+
+p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+
